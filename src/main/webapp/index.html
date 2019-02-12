@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="webapi/superhero/add" method="post">
+    <label>Enter Name:</label> <input type="text" name="name"/><br>
+    <label>Enter Superpower:</label> <input type="text" name="superpower"/><br>
+    <label>Enter Rating:</label> <input type="text" name="rating"/><br>
+	<button type="submit">Submit</button>
+</form>
+
+<form action="webapi/superhero/get" method="post">
+    <label>Enter ID To Search:</label> <input type="number" name="id"/><br>
+	<button type="submit">Submit</button>
+</form>
+
+<form action="webapi/superhero/delete" method="post">
+    <label>Enter ID To Delete:</label> <input type="number" name="id"/><br>
+	<button type="submit">Submit</button>
+</form>
+
+<form action="webapi/superhero/common" method="post">
+<label>Enter Power:</label> <input type="text" name="power"/><br>
+	<button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
